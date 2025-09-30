@@ -25,5 +25,5 @@ jobs:
       - name: Run activity log updater
         uses: TheDanniCraft/activity-log@v1
         with:
-          GITHUB_USERNAME: <jimmy0904229-collab>  
+          GITHUB_USERNAME: ${{ github.actor }}  
           GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
