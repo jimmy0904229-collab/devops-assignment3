@@ -1,4 +1,4 @@
-name: Update Repo Activity
+name: Update README
 
 on:
   push:
@@ -16,40 +16,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch repository activity
-        id: repo-activity
-        uses: actions/github-script@v7
+      - name: Run activity log updater
+        uses: TheDanniCraft/activity-log@v1
         with:
           GITHUB_USERNAME: ${{ github.actor }}
-          github-token: ${{ secrets.REPO_TOKEN }}
-          script: |
-            const fs = require('fs');
-            const { data: events } = await github.request('GET /repos/{owner}/{repo}/events', {
-              owner: context.repo.owner,
-              repo: context.repo.repo
-            });
-
-            let log = "## 📌 Recent Activity\n<!--START_SECTION:activity-->\n";
-            for (let i = 0; i < Math.min(events.length, 5); i++) {
-              const e = events[i];
-              if (e.type === "PushEvent") {
-                log += `- 🚀 Pushed to ${e.repo.name} at ${e.created_at}\n`;
-              } else if (e.type === "PullRequestEvent") {
-                log += `- 🔀 ${e.payload.action} PR #${e.payload.pull_request.number} in ${e.repo.name}\n`;
-              } else if (e.type === "IssuesEvent") {
-                log += `- ❗ ${e.payload.action} issue #${e.payload.issue.number} in ${e.repo.name}\n`;
-              }
-            }
-            log += "<!--END_SECTION:activity-->\n";
-
-            let readme = fs.readFileSync("README.md", "utf8");
-            readme = readme.replace(/## 📌 Recent Activity[\\s\\S]*<!--END_SECTION:activity-->/, log);
-            fs.writeFileSync("README.md", readme);
-      
-      - name: Commit changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "Update repo activity log" || echo "No changes to commit"
-          git push
+          GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }} # PAT: repo + read:user
