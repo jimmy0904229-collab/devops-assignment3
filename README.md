@@ -1,14 +1,14 @@
 ## 📌 Recent Activity
 <!--START_SECTION:activity-->
-1. 📝 Committed to [jimmy0904229-collab/devops-assignment3](https://github.com/jimmy0904229-collab/devops-assignment3/commit/a29f5b634e879c4480d3b7f681dbdb8b726c52ed)
-2. 📝 Committed to [jimmy0904229-collab/devops-assignment3](https://github.com/jimmy0904229-collab/devops-assignment3/commit/7a5eb193e24ee477d666046aaf7865622f43b08e)
-3. 📝 Committed to [jimmy0904229-collab/devops-assignment3](https://github.com/jimmy0904229-collab/devops-assignment3/commit/df3e490c58af06cf9c2b03c2fb632431c3cf5a19)
-4. 📝 Committed to [jimmy0904229-collab/devops-assignment3](https://github.com/jimmy0904229-collab/devops-assignment3/commit/4a2fca6153988b31245b9d0c6f6876e2a951f8a6)
-5. 📝 Committed to [jimmy0904229-collab/devops-assignment3](https://github.com/jimmy0904229-collab/devops-assignment3/commit/f454d496dcbbce58266e3ae1aacb2aa51d481b69)
-6. 📝 Committed to [jimmy0904229-collab/devops-assignment3](https://github.com/jimmy0904229-collab/devops-assignment3/commit/b14a0abc619c9347f919c184df869afad4975d67)
-7. 📝 Committed to [jimmy0904229-collab/devops-assignment3](https://github.com/jimmy0904229-collab/devops-assignment3/commit/762f0536933059d11e6ac6d99ace4bd9cbb5e548)
-8. 📝 Committed to [jimmy0904229-collab/devops-assignment3](https://github.com/jimmy0904229-collab/devops-assignment3/commit/f3b3859e3c6dba8fc98f18bb94e3521724309549)
-9. ❌ Closed an issue [#2](https://github.com/jimmy0904229-collab/devops-assignment3/issues/2) in [jimmy0904229-collab/devops-assignment3](https://github.com/jimmy0904229-collab/devops-assignment3)
-10. 🔀 Merged [PR #4](https://github.com/jimmy0904229-collab/devops-assignment3/pull/4) in [jimmy0904229-collab/devops-assignment3](https://github.com/jimmy0904229-collab/devops-assignment3)
+1. 🆕 Opened an issue [#6](https://github.com/jimmy0904229-collab/devops-assignment3/issues/6) in [jimmy0904229-collab/devops-assignment3](https://github.com/jimmy0904229-collab/devops-assignment3)
+2. 📝 Committed to [jimmy0904229-collab/devops-assignment3](https://github.com/jimmy0904229-collab/devops-assignment3/commit/0cc8de2d8e984749268bf1bbe803b799b8141754)
+3. 📝 Committed to [jimmy0904229-collab/devops-assignment3](https://github.com/jimmy0904229-collab/devops-assignment3/commit/70b7c4e313e66eddcf162012d9301f6187fe2406)
+4. 📝 Committed to [jimmy0904229-collab/devops-assignment3](https://github.com/jimmy0904229-collab/devops-assignment3/commit/fd11155060c3daa14ddd1459848e705852b7da41)
+5. 🔀 Merged [PR #5](https://github.com/jimmy0904229-collab/devops-assignment3/pull/5) in [jimmy0904229-collab/devops-assignment3](https://github.com/jimmy0904229-collab/devops-assignment3)
+6. 📥 Opened [PR #5](https://github.com/jimmy0904229-collab/devops-assignment3/pull/5) in [jimmy0904229-collab/devops-assignment3](https://github.com/jimmy0904229-collab/devops-assignment3)
+7. 📝 Committed to [jimmy0904229-collab/devops-assignment3](https://github.com/jimmy0904229-collab/devops-assignment3/commit/fab3c3faf47066dbbaa07956aea7a815257becdf)
+8. 📝 Committed to [jimmy0904229-collab/devops-assignment3](https://github.com/jimmy0904229-collab/devops-assignment3/commit/4e5b247dd740316e0450b9a82cc3f30e75d04430)
+9. 📝 Committed to [jimmy0904229-collab/devops-assignment3](https://github.com/jimmy0904229-collab/devops-assignment3/commit/a29f5b634e879c4480d3b7f681dbdb8b726c52ed)
+10. 📝 Committed to [jimmy0904229-collab/devops-assignment3](https://github.com/jimmy0904229-collab/devops-assignment3/commit/7a5eb193e24ee477d666046aaf7865622f43b08e)
 <!--END_SECTION:activity-->
 test
