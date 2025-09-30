@@ -1,0 +1,20 @@
+name: Update README
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: "0 9 * * *" # 每天早上 9 點 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: TheDanniCraft/activity-log@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
