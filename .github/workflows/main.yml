@@ -17,5 +17,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: TheDanniCraft/activity-log@v1
         with:
-          GITHUB_USERNAME: <jimmy0904229-collab>
+          GITHUB_USERNAME: <jimmy0904229>
           GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
